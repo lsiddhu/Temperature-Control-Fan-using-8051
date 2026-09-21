@@ -23,3 +23,19 @@ This makes it highly useful in Home appliances, computer cooling units, and
 industrial automaƟon, where maintaining opƟmal temperature is essenƟal. The
 project demonstrates effecƟve integraƟon of sensor technology, Analog-todigital conversion, microcontroller programming, and motor control, all
 implemented on a PCB for pracƟcal applicaƟon.
+
+
+| Component                | Connection                              |
+| ------------------------ | --------------------------------------- |
+| **LM35 VCC**             | +5V                                     |
+| **LM35 GND**             | GND                                     |
+| **LM35 OUT**             | ADC0804 analog input                    |
+| **ADC0804 D0–D7**        | AT89C51 Port 1 (P1.0–P1.7)              |
+| **ADC0804 control pins** | AT89C51 Port 3                          |
+| **AT89C51**              | +5V and GND                             |
+| **Crystal**              | XTAL1 & XTAL2 with 33 pF capacitors     |
+| **L293D input**          | AT89C51 output/control pin              |
+| **L293D output**         | DC fan                                  |
+| **L293D logic supply**   | +5V                                     |
+| **Fan supply**           | External supply according to fan rating |
+| **All GNDs**             | Common ground                           |
