@@ -1,5 +1,8 @@
 Abstract
+
 Temperature Control Fan
+
+
 This project presents the design and implementaƟon of a Temperature
 Controlled Fan system using the 8051 Microcontroller. The system is aimed at
 automaƟcally regulaƟng the speed of a fan in response to changes in ambient
